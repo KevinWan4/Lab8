@@ -38,15 +38,15 @@ public class CustomListTest {
         assertFalse(list.hasCity(d));
     }
 
-//    public void deleteCityTest() {
-//        list = MockCityList();
-//        City a = new City("Cowgary", "Alberta");
-//        City b = new City("Edmutton", "Alberta");
-//        list.addCity(a);
-//        list.addCity(b);
-//        list.deleteCity(a);
-//        assertFalse(list.hasCity(a));
-//    }
+    public void deleteCityTest() {
+        list = MockCityList();
+        City a = new City("Cowgary", "Alberta");
+        City b = new City("Edmutton", "Alberta");
+        list.addCity(a);
+        list.addCity(b);
+        list.deleteCity(a);
+        assertFalse(list.hasCity(a));
+    }
 
     public CustomList MockCityList() {
         list = new CustomList(null, new ArrayList<>());

@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<City> cityDataList;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,4 +36,6 @@ public class MainActivity extends AppCompatActivity {
         cityList.setAdapter(cityAdapter);
 
     }
+
+
 }

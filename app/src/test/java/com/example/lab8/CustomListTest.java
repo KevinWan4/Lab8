@@ -38,6 +38,7 @@ public class CustomListTest {
         assertFalse(list.hasCity(d));
     }
 
+    @Test
     public void deleteCityTest() {
         list = MockCityList();
         City a = new City("Cowgary", "Alberta");
